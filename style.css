@@ -1,0 +1,23 @@
+body {
+  background: #0d0e0f;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+svg {
+  display: block;
+  max-width: 960px;
+}
+
+#assinatura {
+  stroke-dasharray: 272;
+  stroke-dashoffset: 272;
+  animation: assinatura 4s infinite forwards;
+}
+
+@keyframes assinatura {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
